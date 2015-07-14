@@ -5,7 +5,6 @@
 .nav a {
   color: white;
   font-size: 11px;
-  font-weight: bold;
   padding: 14px 10px;
 }
 .carousel-inner > .item > img,
@@ -20,7 +19,7 @@
 
 .jumbotron {
   background-image:url("/assets/matt-haircut.jpg");
-  height: 500px;
+  height: 70%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -33,7 +32,6 @@
 .jumbotron h1 {
   color: #fff;
   font-size: 48px;
-  font-family: 'Helvetica-Neue', sans-serif;
   font-weight: bold;
   text-align: center;
 }
@@ -54,7 +52,6 @@
 }
 
 .learn-more h3 {
-  font-family: 'Helvetica-Neue', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
@@ -76,4 +73,24 @@
 .neighborhood-guides p {
     margin-bottom: 13px;
     font-size: 15px
+}
+
+body {
+  font-family: 'Avenir', sans-serif;
+}
+
+.img {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-bottom: 62.5%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.img:hover {
+    opacity: .4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
 }
