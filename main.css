@@ -1,27 +1,21 @@
-.nav {
-  background-color: black;
+nav {
+  background-color: black
 }
 
-.nav a {
-  color: white;
-  font-size: 11px;
-  padding: 14px 10px;
-}
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 50%;
-    margin: auto;
+nav a {
+  color: white
 }
 
-.nav li {
-  display: inline;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron {
   background-image:url("/assets/matt-haircut.jpg");
-  height: 70%;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 .jumbotron .container {
@@ -30,53 +24,10 @@
 }
 
 .jumbotron h1 {
-  color: #fff;
+  color: #42201F;
   font-size: 48px;
   font-weight: bold;
   text-align: center;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-}
-
-.jumbotron a {
-  color: #fff;
-  text-align: center;
-}
-
-.learn-more {
-  background-color: #f7f7f7;
-}
-
-.learn-more h3 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #00b0ff;
-}
-
-.neighborhood-guides {
-    background-color: #efefef;
-    border-bottom: 1px solid #dbdbdb;
-}
-
-.neighborhood-guides h2 {
-    color: #393c3d;
-    font-size: 24px
-}
-
-.neighborhood-guides p {
-    margin-bottom: 13px;
-    font-size: 15px
-}
-
-body {
-  font-family: 'Avenir', sans-serif;
 }
 
 .img {
@@ -93,4 +44,45 @@ body {
 .img:hover {
     opacity: .4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.image-links {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.image-links h2 {
+    color: #393c3d;
+    font-size: 24px
+}
+
+.image-links p {
+    margin-bottom: 13px;
+    font-size: 15px
+}
+
+.learn-more h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.company {
+  text-align: center;
+  padding-top: 10;
+  padding-bottom: 100;
+}
+
+
+
+footer h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer a {
+  color: #00b0ff;
 }

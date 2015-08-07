@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html>
-
+<body>
   <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/main.css">
-
+    <title>Dormcuts</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-    <div class="nav">
+    <!-- Fixed navbar -->
+    <nav>
       <div class="container">
-        <ul class="pull-left">
-          <li><a href="/">Dormcuts</a></li>
-          <li><a href="/learn/">Learn</a></li>
-          <li><a href="/schools/">Schools</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="/book/">Book Now</a></li>
-        </ul>
-      </div>
-    </div>
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/"><strong>DORMCUTS</strong></a>
+          </div>
+          <div>
+            <ul class="nav navbar-nav">
+              <li><a href="/schools">SCHOOLS</a></li>
 
+            </ul>
+            <ul class="nav navbar-nav pull-right">
+              <li><a href="/book">BOOK NOW</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="jumbotron">
       <div class="container">
         <p>
-          <h1>Dormcuts</h1>
-          <br>
-          <center>  <a type="button" class="btn-sm btn-primary" href="/book">Book Now</a> </center>
-        </div>
+          <h1><strong>DORMCUTS</strong></h1>
+          <h5>BE ON YOUR "A" GAME</h5>
+
+          <a type="button" class="btn btn-primary btn-lg" href="/book">GET A HAIRCUT</a>
+
         </p>
+      </div>
     </div>
 
-    <div class="neighborhood-guides">
+    <!-- <div class="image-links">
         <div>
           <div class="row">
             <a href="/schools/">
@@ -56,41 +63,48 @@
 
           </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="learn-more">
-  	  <div class="container">
-    		<div class="row">
-    	      <div class="col-md-4">
-        			<h3>Social</h3>
-        			<p><a href="#">Blog</a></p>
-              <p><a href="http://instagram.com/dormcuts">Instagram</a></p>
-              <p><a href="http://twitter.com/dormcuts">Twitter</a></p>
-    	      </div>
-      		  <div class="col-md-4">
-        			<h3>Get a cut</h3>
-        			<p>Look fresh ASAP</p>
-        			<p><a href="#">Book an appointment</a></p>
-      		  </div>
-        		  <div class="col-md-4">
-        			<h3>About us</h3>
-        			<p>We want to help you look good</p>
-        			<p><a href="#">Learn more</a></p>
-              <p>
-            <a href="#">Join the team</a>
-          </p>
-    		  </div>
-  	    </div>
-	  </div>
-    <footer class="container">
+
+    <footer>
+      <div class="learn-more container">
         <div class="row">
-          <hr>
-            <div class="col-lg-12">
-                Dormcuts 2015
-            </div>
-        </div>
-    </footer>
-	</div>
 
-  </body>
+          <div class="col-md-4">
+            <h4>Basics</h4>
+              <h5><a href="/schools">Schools</a></h5>
+          </div>
+
+          <div class="col-md-4">
+            <h4>Social</h4>
+
+              <h5><a href="http://twitter.com/dormcuts">Twitter</a></h5>
+              <h5><a href="http://instagram.com/dormcuts">Instagram</a></h5>
+              <h5><a href="http://facebook.com/dormcuts">Facebook</a></h5>
+
+          </div>
+
+          <div class="col-md-4">
+            <h4>Company</h4>
+              <h5><a href="mailto:support@dormcuts.com">Contact Us</a> </h5>
+
+          </div>
+        </div>
+        <hr>
+        <div class="company">
+          2015 <strong>DORMCUTS</strong>, All Rights Reserved
+
+        </div>
+
+      </footer>
+      </div>
+
+
+    </body>
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </html>

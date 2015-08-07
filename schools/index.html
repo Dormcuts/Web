@@ -1,90 +1,106 @@
 <!DOCTYPE html>
 <html>
-
+<body>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link href="/zoom.js/css/zoom.css" rel="stylesheet">
-    <script src="/zoom.js/js/zoom.js"></script>
-    <script src="https://raw.githubusercontent.com/twbs/bootstrap/master/js/transition.js"></script>
-    <link rel="stylesheet" href="/main.css">
-
-
+    <title>Dormcuts</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/main.css" media="screen" title="no title" charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-    <div class="nav">
+    <!-- Fixed navbar -->
+    <nav>
       <div class="container">
-        <ul class="pull-left">
-          <li><a href="/">Dormcuts</a></li>
-          <li><a href="/learn/">Learn</a></li>
-          <li><a href="/schools/">Schools</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="/book">Book Now</a></li>
-        </ul>
-      </div>
-    </div>
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/"><strong>DORMCUTS</strong></a>
+          </div>
+          <div>
+            <ul class="nav navbar-nav">
+              <li><a href="/schools">SCHOOLS</a></li>
 
+            </ul>
+            <ul class="nav navbar-nav pull-right">
+              <li><a href="/book">BOOK NOW</a></li>
 
-    <!-- Page Content -->
-      <div class="container">
-        <p>
-          <h1>The Schools</h1>
-          <ul>
-            <li>Carleton College</li>
-            <img src="/assets/carleton.png" alt="" />
-            <li>St. Olaf College</li>
-            <img src="/assets/stolaf.png" alt="" />
-            <li>San Francisco State University</li>
-            <img src="/assets/sfsu.jpg" alt="" />
-          </ul>
-        </p>
-      </div>
-      <!-- /.container -->
-      <hr>
-      <div class="learn-more">
-        <div class="container">
-          <div class="row">
-              <div class="col-md-4">
-                <h3>Social</h3>
-                <p><a href="#">Blog</a></p>
-                <p><a href="http://instagram.com/dormcuts">Instagram</a></p>
-                <p><a href="http://twitter.com/dormcuts">Twitter</a></p>
-              </div>
-              <div class="col-md-4">
-                <h3>Get a cut</h3>
-                <p>Look fresh ASAP</p>
-                <p><a href="#">Book an appointment</a></p>
-              </div>
-                <div class="col-md-4">
-                <h3>About us</h3>
-                <p>We want to help you look good</p>
-                <p><a href="#">Learn more</a></p>
-                <p>
-              <a href="#">Join the team</a>
-            </p>
-            </div>
-            </div>
+            </ul>
+          </div>
         </div>
-        <footer class="container">
-            <div class="row">
-              <hr>
-                <div class="col-lg-12">
-                    Dormcuts 2015
-                </div>
-            </div>
-        </footer>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Schools</h1>
 
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+          <h4>Carleton College</h4>
+          <img src="/assets/carleton.png" width= "80%" alt="" />
+        </div>
+
+        <div class="col-md-4">
+          <h4>St. Olaf College</h4>
+
+            <img src="/assets/stolaf.png" alt="" width="80%"/>
+
+        </div>
+
+        <div class="col-md-4">
+          <h4>San Francisco State University</h4>
+            <img src="/assets/sfsu.jpg" alt="" />
+
+        </div>
       </div>
 
 
-      <!-- jQuery -->
-      <script src="js/jquery.js"></script>
+    </div>
+    <hr>
 
-      <!-- Bootstrap Core JavaScript -->
-      <script src="js/bootstrap.min.js"></script>
-  </body>
+
+    <footer>
+      <div class="learn-more container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <h4>Basics</h4>
+              <h5><a href="/schools">Schools</a></h5>
+          </div>
+
+          <div class="col-md-4">
+            <h4>Social</h4>
+
+              <h5><a href="http://twitter.com/dormcuts">Twitter</a></h5>
+              <h5><a href="http://instagram.com/dormcuts">Instagram</a></h5>
+              <h5><a href="http://facebook.com/dormcuts">Facebook</a></h5>
+
+          </div>
+
+          <div class="col-md-4">
+            <h4>Company</h4>
+              <h5><a href="mailto:support@dormcuts.com">Contact Us</a> </h5>
+
+          </div>
+        </div>
+        <hr>
+        <div class="company">
+          2015 <strong>DORMCUTS</strong>, All Rights Reserved
+
+        </div>
+
+      </footer>
+      </div>
+
+
+    </body>
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </html>
